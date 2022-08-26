@@ -35,6 +35,7 @@ const SeePic = () => {
                     {data && data.map(date=>{
                       return  <li key={date.id}>{date.id}</li>
                     })}
+                    <div></div>
                 </ul>
             </div>
         </div>
